@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #242424;
+    scroll-behavior: smooth;
+}
+
+section#snipnose {
+
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+section#snipnose img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+section#snipnose video {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.downbannericon {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.downbannericon:hover {
+    color: royalblue;
+    transition: .4s ease-in-out;
+}
+
+
+
+.snp-spn {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #000000, #000000e3, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.box-titles {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    padding: 0px 100px;
+
+}
+
+.box-titles h2 {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.box-titles p {
+    color: white;
+    max-width: 650px;
+}
+
+.barra {
+    max-width: 80px;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    background: linear-gradient(to top, black, black, transparent);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: linear-gradient(to right, rgb(76, 0, 255), rgb(134, 42, 255), rgb(77, 1, 255));
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.icons {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.icons:hover {
+    color: rgb(96, 15, 226);
+    transition: .4s ease-in-out;
+}
+
+
+/* -------------------------------------- */
+@media screen and (max-width:480px) {
+    * {}
+
+    .box-titles {
+        padding: 0px 20px;
+    }
+
+    .box-titles h2 {
+        width: 100%;
+        font-size: 2em;
+
+    }
+
+    .box-titles p {
+        color: white;
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .barra {
+        padding: 20px 0px;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to right, rgb(76, 0, 255), rgb(134, 42, 255), rgb(77, 1, 255));
+
+
+    }
+
+    .barra i {
+        display:inline;
+        margin:20px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+
+    .downbannericon {
+        font-size: 25px;
+
+        bottom: 50px;
+    }
+}
+/* ---------------TABLETS */
+
+@media screen and (max-width:76S8pSx) {
+    
+
+    .box-titles {
+        padding: 0px 20px;
+    }
+
+    .box-titles h2 {
+        width: 100%;
+        font-size: 2em;
+
+    }
+
+    .box-titles p {
+        color: white;
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .barra {
+        padding: 20px 0px;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to right, rgb(76, 0, 255), rgb(134, 42, 255), rgb(77, 1, 255));
+
+
+    }
+
+    .barra i {
+        display:inline;
+        margin:20px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+
+    .downbannericon {
+        font-size: 25px;
+
+        bottom: 50px;
+    }
+}
